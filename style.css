@@ -91,79 +91,79 @@
     height: 500px;
     margin: 10px;
     border-radius: 50px;
-    background: url("Photos/aqua/0001.png");
+    background: url("Photos/aqua.png");
     background-size: cover;
     background-position: center;
     position: relative;
     transition: width 0.5s;
 }
 .img-box:nth-child(2){
-    background: url("Photos/black swan/0001.png");
+    background: url("Photos/swan.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(3){
-    background: url("Photos/frieren/0001.png");
+    background: url("Photos/frieren.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(4){
-    background: url("Photos/fuxuan/0001.png");
+    background: url("Photos/fuxuan.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(5){
-    background: url("Photos/garlick/1.png");
+    background: url("Photos/garlick.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(6){
-    background: url("Photos/himeko/0000.png");
+    background: url("Photos/himeko.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(7){
-    background: url("Photos/kafka/0001.png");
+    background: url("Photos/kafka.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(8){
-    background: url("Photos/karlach/0001.png");
+    background: url("Photos/karlach.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(9){
-    background: url("Photos/kirara/0001.png");
+    background: url("Photos/kirara.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(10){
-    background: url("Photos/silver wolf/0001.png");
+    background: url("Photos/silver.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(11){
-    background: url("Photos/topaz/0001.png");
+    background: url("Photos/topaz.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(12){
-    background: url("Photos/qingque/0001.png");
+    background: url("Photos/qingque.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(13){
-    background: url("Photos/linnet/0001.png");
+    background: url("Photos/linnet.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(14){
-    background: url("Photos/eula/0043.png");
+    background: url("Photos/eula.png");
     background-size: cover;
     background-position: center;
 }
 .img-box:nth-child(15){
-    background: url("Photos/nahida/1.png");
+    background: url("Photos/nahida.png");
     background-size: cover;
     background-position: center;
 }
