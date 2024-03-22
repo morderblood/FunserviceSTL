@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: pink;
+}
+
+.side-nav{
+    width: 300px;
+    height: 100%;
+    background: violet  ;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20px 30px;
+    box-shadow: 3px 0px 5px grey;
+}
+
+#logo{
+    display: block;
+    width: 100%;
+    
+    margin-bottom: 40px;
+    padding-top: 25px;
+    filter: drop-shadow(0 0 5px #2b2b2b);
+}
+
+#logo:hover{
+    transform: scale(1.01);
+    filter: drop-shadow(0 0 10px #2B2B2B);
+}
+
+.menu{
+    margin-top: 100px;
+    list-style: none;
+    position: relative;
+}
+
+.menu li{
+    padding: 10px 0px;
+    margin-bottom: 25px;
+    border: 2px solid transparent;
+}
+
+.menu li:hover{
+    transform: scale(1.1);
+    border-color: white;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #EB75C8;
+    filter: drop-shadow(0 0 5px #222);
+}
+
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    font-family: tahoma;
+    display: block;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 315px;
+    padding-right: 15px;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.img-box{
+    width: 100px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 50px;
+    background: url("Photos/aqua/0001.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 0.5s;
+}
+.img-box:nth-child(2){
+    background: url("Photos/black swan/0001.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(3){
+    background: url("Photos/frieren/0001.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(4){
+    background: url("Photos/fuxuan/0001.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(5){
+    background: url("Photos/garlick/1.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(6){
+    background: url("Photos/himeko/0000.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(7){
+    background: url("Photos/kafka/0001.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(8){
+    background: url("Photos/karlach/0001.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(9){
+    background: url("Photos/kirara/0001.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(10){
+    background: url("Photos/silver wolf/0001.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(11){
+    background: url("Photos/topaz/0001.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(12){
+    background: url("Photos/qingque/0001.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(13){
+    background: url("Photos/linnet/0001.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(14){
+    background: url("Photos/eula/0043.png");
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(15){
+    background: url("Photos/nahida/1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.img-box h3{
+    color: #fff;
+    position: absolute; 
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: buttom 0.9s, opasuty 0.5s;
+    font-size: 35px;
+}
+
+.img-box:hover{
+    width: 300px;
+    cursor: pointer;
+}
+
+.img-box:hover h3{
+    opacity: 1;
+    bottom: 25px;
+}
