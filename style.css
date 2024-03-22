@@ -91,7 +91,7 @@
     height: 500px;
     margin: 10px;
     border-radius: 50px;
-    background: url("Photos/aqua.png");
+    background: url("./Photos/aqua.png");
     background-size: cover;
     background-position: center;
     position: relative;
